@@ -1,0 +1,126 @@
+* {
+	font-family: 'Inter', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: screen;
+}
+
+.header {
+	background-color: #1f2937;
+	color: white;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0px;
+	padding-top: 5px;
+}
+
+.logo {
+	padding-left: 45px;
+	font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: #c5c5c5;
+	gap: 10px;
+	margin: 10px;
+	padding-top: 5px;
+}
+
+.hero h1 {
+	font-size: 48px;
+	font-style: extra-bold;
+	color: #f9faf8;
+}
+
+.hero p {
+	font-size: 18px;
+	color: #c5c5c5;
+}
+
+.hero {
+	display: flex;
+	flex-direction: row;
+	background-color: #1f2937;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero img {
+	width: 500px;
+	height: 500px;
+}
+
+.btn {
+	color: white;
+	background-color: #3882f7;
+	font-size: 25px;
+	border-radius: 5px;
+}
+
+.features {
+	display: flex;
+
+	justify-content: center;
+
+	padding: 5px;
+	background-color: #f9faf8;
+	color: white;
+	margin: 10px;
+}
+
+.features h2 {
+	font-size: 36px;
+	font-style: extra-bold;
+	color: #1f2937;
+	text-align: center;
+}
+
+.feature {
+	max-width: 300px;
+	color: #1f2937;
+	display: inline-block;
+	text-align: center;
+}
+.feature img {
+	width: 150px;
+	height: 150px;
+	border: 2px solid blue;
+}
+
+.quote {
+	background-color: #e5e7eb;
+	display: flex;
+	justify-content: center;
+}
+.quote-text p {
+	font-size: 36px;
+	font-weight: light;
+	font-style: italic;
+	color: #1f2937;
+	text-align: center;
+	padding: 50px;
+}
+
+.quote-text p span {
+	font-style: bold;
+}
+
+.call-to-action {
+	background-color: #3882f6;
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
+	margin: 75px;
+	color: white;
+}
+
+footer {
+	background-color: #1f2937;
+	color: white;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 25px;
+}
